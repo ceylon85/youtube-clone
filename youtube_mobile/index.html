@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <!--load all styles -->
     <title>Youtube Mobile</title>
 </head>
@@ -40,8 +40,8 @@
             </ul>
             <div class="titleAndButton">
                 <span class="title">
-                    이 사이트는 HTML과 CSS 를 이용한 Youtube Clone coding 입니다.
-                    (HTML + CSS) web portpolio
+                    이 사이트는 HTML과 CSS 를 이용한 Youtube Clone coding 입니다.<br/>
+                    HTML + CSS web portpolio
                 </span>
                 <button class="moreBtn">
                     <i class="fas fa-caret-down"></i>
@@ -52,34 +52,50 @@
         </div>
         <!--2. Actions Btn -->
         <ul class="actions">
-            <li><button>
-                    <i class="fas fa-thumbs-up"></i>
-                </button>100</li>
-            <li><button>
+            <li>
+                <button>
+                    <i class="active fas fa-thumbs-up"></i>
+                    <span>1.2K</span>
+                </button>
+            </li>
+            <li>
+                <button>
                     <i class="fas fa-thumbs-down"></i>
-                </button>3</li>
-            <li><button>
+                    <span>10</span>
+                </button>
+            </li>
+            <li>
+                <button>
                     <i class="fas fa-share"></i>
-                </button>Share</li>
-            <li><button>
+                    <span>Share</span>
+                </button>
+            </li>
+            <li>
+                <button>
                     <i class="fas fa-plus"></i>
-                </button>Save</li>
-            <li><button>
-                    <i class="fas fa-font-awesome-flag"></i>
-                </button>Report</li>
+                    <span>Save</span>
+                </button>
+            </li>
+            <li>
+                <button>
+                    <i class="fab fa-font-awesome-flag"></i>
+                    <span>Report</span>
+                </button>
+            </li>
         </ul>
         <!--3. Channel Description -->
         <div class="channel">
             <div class="metadata">
-                <img width="50" height="50" src="image/Compass.jpg" alt="avatar">
+                <img src="image/Compass.jpg" alt="avatars">
                 <div class="info">
-                    <span class="name">Happy Coding by SJ Lee</span>
-                    <span class="subscribers">1230 subscribers</span>
+                    <span class="name">Coding by SJ Lee</span>
+                    <span class="subscribers">구독자 1.2K 명</span>
                 </div>
             </div>
             <button class="subscribe">subscribe</button>
         </div>
     </section>
+
     <section class="upNext">
         <span class="title">Up next</span>
         <ul>
